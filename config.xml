@@ -21,4 +21,10 @@
 	<feature name="http://api.phonegap.com/1.0/network"/>
 
 	<preference name="orientation" value="portrait" />
+	<preference name="webviewbounce" value="false" />
+
+	<access origin="http://debug.phonegap.com" />
+	<access origin="http://parse.com" subdomains="true" />
+	<access origin="https://parse.com" subdomains="true" />
+
 </widget>
